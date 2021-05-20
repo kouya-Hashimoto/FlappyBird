@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B37E2372265683AA00471436 /* Motion-Grab02-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37E2371265683AA00471436 /* Motion-Grab02-1.mp3 */; };
 		B380404A264127DF00FC13D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3804049264127DF00FC13D2 /* AppDelegate.swift */; };
 		B380404C264127DF00FC13D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380404B264127DF00FC13D2 /* SceneDelegate.swift */; };
 		B380404E264127DF00FC13D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380404D264127DF00FC13D2 /* ViewController.swift */; };
 		B3804051264127DF00FC13D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B380404F264127DF00FC13D2 /* Main.storyboard */; };
 		B3804053264127E000FC13D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3804052264127E000FC13D2 /* Assets.xcassets */; };
 		B3804056264127E000FC13D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3804054264127E000FC13D2 /* LaunchScreen.storyboard */; };
+		B380406426412D7300FC13D2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B380406326412D7300FC13D2 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B37E2371265683AA00471436 /* Motion-Grab02-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Motion-Grab02-1.mp3"; sourceTree = "<group>"; };
 		B3804046264127DF00FC13D2 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3804049264127DF00FC13D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B380404B264127DF00FC13D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B3804052264127E000FC13D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3804055264127E000FC13D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3804057264127E000FC13D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B380406326412D7300FC13D2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B3804048264127DF00FC13D2 /* FlappyBird */ = {
 			isa = PBXGroup;
 			children = (
+				B37E2371265683AA00471436 /* Motion-Grab02-1.mp3 */,
 				B3804049264127DF00FC13D2 /* AppDelegate.swift */,
 				B380404B264127DF00FC13D2 /* SceneDelegate.swift */,
 				B380404D264127DF00FC13D2 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				B3804052264127E000FC13D2 /* Assets.xcassets */,
 				B3804054264127E000FC13D2 /* LaunchScreen.storyboard */,
 				B3804057264127E000FC13D2 /* Info.plist */,
+				B380406326412D7300FC13D2 /* GameScene.swift */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37E2372265683AA00471436 /* Motion-Grab02-1.mp3 in Resources */,
 				B3804056264127E000FC13D2 /* LaunchScreen.storyboard in Resources */,
 				B3804053264127E000FC13D2 /* Assets.xcassets in Resources */,
 				B3804051264127DF00FC13D2 /* Main.storyboard in Resources */,
@@ -139,6 +146,7 @@
 			files = (
 				B380404E264127DF00FC13D2 /* ViewController.swift in Sources */,
 				B380404A264127DF00FC13D2 /* AppDelegate.swift in Sources */,
+				B380406426412D7300FC13D2 /* GameScene.swift in Sources */,
 				B380404C264127DF00FC13D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techademy.kouya.Hashimoto.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techademy.kouya.Hashimoto.FlappyBird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
